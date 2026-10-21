@@ -1,0 +1,116 @@
+{
+  "communities": {
+    "0": [
+      "back_package",
+      "back_package_author",
+      "back_package_description",
+      "back_package_keywords",
+      "back_package_license",
+      "back_package_main",
+      "back_package_name",
+      "back_package_type",
+      "back_package_version"
+    ],
+    "1": [
+      "back_index",
+      "back_index_app",
+      "back_index_connectdb",
+      "back_index_dotenv",
+      "back_index_express",
+      "ref_dotenv",
+      "ref_express"
+    ],
+    "2": [
+      "back_config_db",
+      "back_config_db_connectdb",
+      "back_config_db_mongoose",
+      "ref_mongoose"
+    ],
+    "3": [
+      "back_package_dependencies",
+      "back_package_dependencies_dotenv",
+      "back_package_dependencies_express",
+      "back_package_dependencies_mongoose"
+    ],
+    "4": [
+      "vercel",
+      "vercel_builds",
+      "vercel_routes",
+      "vercel_version"
+    ],
+    "5": [
+      "back_package_scripts",
+      "back_package_scripts_test"
+    ],
+    "6": [
+      "front_index",
+      "front_index_messageel"
+    ]
+  },
+  "cohesion": {
+    "0": 0.2222222222222222,
+    "1": 0.2857142857142857,
+    "2": 0.5,
+    "3": 0.5,
+    "4": 0.5,
+    "5": 1.0,
+    "6": 1.0
+  },
+  "gods": [
+    {
+      "id": "back_package_scripts",
+      "label": "scripts",
+      "degree": 2
+    },
+    {
+      "id": "ref_dotenv",
+      "label": "dotenv",
+      "degree": 2
+    },
+    {
+      "id": "ref_express",
+      "label": "express",
+      "degree": 2
+    },
+    {
+      "id": "ref_mongoose",
+      "label": "mongoose",
+      "degree": 2
+    },
+    {
+      "id": "back_config_db_mongoose",
+      "label": "mongoose",
+      "degree": 1
+    },
+    {
+      "id": "back_index_express",
+      "label": "express",
+      "degree": 1
+    },
+    {
+      "id": "back_index_app",
+      "label": "app",
+      "degree": 1
+    },
+    {
+      "id": "back_index_dotenv",
+      "label": "dotenv",
+      "degree": 1
+    },
+    {
+      "id": "back_index_connectdb",
+      "label": "connectDB",
+      "degree": 1
+    },
+    {
+      "id": "back_package_main",
+      "label": "main",
+      "degree": 1
+    }
+  ],
+  "surprises": [],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}
