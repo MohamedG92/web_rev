@@ -29,8 +29,11 @@ app.get('/api/test', (req, res) => {
 
 connectDB().catch((err) => console.error(err.message));
 
-app.listen(PORT, () => {
-    console.log("Server is running on port : " + PORT)
-})
+// Sur Vercel, c'est Vercel qui lance le serveur
+if (!process.env.VERCEL) {
+    app.listen(PORT, () => {
+        console.log("Server is running on port : " + PORT)
+    })
+}
 
 module.exports = app;
